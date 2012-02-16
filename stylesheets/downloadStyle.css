@@ -1,0 +1,78 @@
+.uploadItemTable th {
+  vertical-align: top;
+  width: 170px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.spacer {
+  height: 10px;
+}
+
+.torrentInfoBox {
+  border: 1px solid grey;
+}
+
+.torrentInfoBox .nameVersion {
+  background: #DDD;
+  padding: 7px;
+  border-bottom: 1px solid grey;
+}
+
+.torrentInfoBox .name {
+  float: left;
+}
+
+.torrentInfoBox .version {
+  float: right;
+  text-align: right;
+}
+
+.torrentInfoBox .description {
+}
+
+.torrentInfoBox .descriptionTitle {
+  float: left;
+  padding: 7px;
+}
+
+.torrentInfoBox .descriptionText {
+  float: left;
+  border-left: 1px solid grey;
+  padding: 7px;
+  background: #FFF;
+  min-height: 100px;
+}
+
+.torrentInfoBox .dateDevel {
+  border-top: 1px solid grey;
+  background: #DDD;
+  padding: 7px;
+}
+
+.torrentInfoBox .dateUploaded {
+  float: left;
+}
+
+.torrentInfoBox .developer {
+  width: 230px;
+  float: right;
+  text-align: right;
+}
+
+.torrentInfoBox .categories {
+  background: #F2F2F2;
+  padding: 7px;
+}
+
+.torrentFiles th {
+  width: 710px;
+  padding: 5px;
+  border: 1px solid grey;
+  background: #DDD;
+}
+
+.torrentFiles td {
+  padding: 5px;
+  border-bottom: 1px solid grey;
+}
