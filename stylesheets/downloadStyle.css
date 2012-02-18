@@ -8,6 +8,18 @@
 .spacer {
   height: 10px;
 }
+.viewVersions tr {
+}
+
+.viewVersions th {
+  padding: 7px;
+  width: 100px;
+  background: #F2F2F2;
+}
+
+.viewVersions td {
+  padding: 7px;
+}
 
 .torrentInfoBox {
   border: 1px solid grey;
@@ -23,9 +35,16 @@
   float: left;
 }
 
+.torrentInfoBox .download {
+  float: right;
+  text-align: right;
+  width: 300px;
+}
+
 .torrentInfoBox .version {
   float: right;
   text-align: right;
+  width: 200px;
 }
 
 .torrentInfoBox .description {
@@ -54,8 +73,14 @@
   float: left;
 }
 
+.torrentInfoBox .uploader {
+  width: 200px;
+  float: right;
+  text-align: right;
+}
+
 .torrentInfoBox .developer {
-  width: 230px;
+  width: 300px;
   float: right;
   text-align: right;
 }

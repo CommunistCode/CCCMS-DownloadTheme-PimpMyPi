@@ -1,0 +1,32 @@
+.detailedTorrentInfo table {
+  margin: 20px 0px 20px 0px;
+  border: 1px solid grey;
+  width: 720px;
+}
+
+.detailedTorrentInfo tr {
+  border-bottom: 1px solid #DDD;
+  border-right: 1px solid grey;
+  border-left: 1px solid grey;
+}
+
+.detailedTorrentInfo .lastRow {
+  border-bottom: 1px solid grey;
+  border-right: 1px solid grey;
+  border-left: 1px solid grey;
+}
+
+.detailedTorrentInfo th {
+  width: 130px;
+  background: #F2F2F2;
+  padding: 7px;
+}
+
+.detailedTorrentInfo td {
+  padding: 7px 7px 7px 20px;
+}
+
+.detailedTorrentInfo .extraDetail {
+  font-size: 10px;
+  float: right;
+}
