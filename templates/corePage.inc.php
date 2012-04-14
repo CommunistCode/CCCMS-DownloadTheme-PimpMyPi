@@ -11,7 +11,7 @@
   	<link href="themes/berry/stylesheets/downloadStyle.css" rel="stylesheet" />
 
     <!--[if IE]>
-      <link href="<?php echo(DIRECTORY_PATH); ?>/themes/berry/stylesheets/ie.css" rel="stylesheet" />
+      <link href="<?php echo(DIRECTORY_PATH); ?>/base/themes/berry/stylesheets/ie.css" rel="stylesheet" />
     <![endif]-->
 
   	<title><?php echo(SITE_NAME." : ".$_title); ?></title>
